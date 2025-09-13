@@ -29,7 +29,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost:8000',
-    'https://concrete-strength-backend.onrender.com'
+    'concrete-strength-backend.onrender.com'
 ]
 
 

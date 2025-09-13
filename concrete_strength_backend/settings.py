@@ -24,9 +24,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+#@fl#y_u(&cnor6fw=z2i#hn#7_eia01o)oos!-=9isfoybgu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost:8000',
+    'https://concrete-strength-backend.onrender.com'
+]
+
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Application definition

@@ -1,7 +1,5 @@
 
 
-from sklearn.preprocessing import LabelEncoder
-
 
 def processAge(cement_age: int):
     if cement_age == 7:
@@ -12,5 +10,4 @@ def processAge(cement_age: int):
         return 'late'
 
 
-def vectorize(**kwargs):
-    return []
+
